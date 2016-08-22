@@ -1,0 +1,141 @@
+
+/* This part is for designing the profile header page of logged in user */
+
+/*Body Properties. */
+
+body{
+    
+    background-color: lightslategrey;
+    max-width: 13000px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+
+#profileheader{
+    z-index: 100;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 80px;
+    width: 1380px;
+    max-width: 1366px;
+    background-color: darkslategray;
+    position: fixed;
+    box-shadow: black;
+    
+    
+}
+#findfriend{
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 18px;
+    width: 400px;
+    height: 25px;
+}
+
+#profilelogo{
+    margin-left: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 3px sandybrown;
+}
+#headerbottom{
+    position: relative;
+    width: 1380px;
+    box-shadow: 1px 0px 1px gold;
+}
+#profilepic1{
+    margin-left: 700px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    
+}
+.profilename{
+    background-color: peachpuff;
+    
+    border: 1px solid linen;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 23px; 
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin-left: 885.3px;
+    height: 35px;
+    box-shadow: 1px 1px 1px black; 
+   
+}
+
+input.profilename:hover{
+    background-color: #DDA247;
+    
+}
+#admincontrol{
+    visibility: visible;
+    display: none;
+    width: 90.5px;
+    z-index: 100;
+    position: absolute;
+    border-width: 70px;
+    margin-top: 40px;
+    background-color: silver;
+    border-bottom: 50px solid none; 
+    box-shadow: 1px 2px 2px floralwhite;
+    margin-left: 885px;
+    
+}
+#profiletools{
+    position: absolute;
+}
+
+/* This part is for desinging the user logged in information. */
+
+#profile{
+    position: absolute;
+    background-color: lightgray;
+    z-index: 0;
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: .5px .5px darkslateblue;
+}
+
+#home,#freinds{
+    
+    text-align: center;
+}
+
+#profilepic2{
+    width: 150px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#things{
+    position: absolute;
+    margin-left: 500px;
+     margin-top: 250px;
+}
+ #nameborder1{
+          box-shadow: 0px .3px 0px black;
+          margin-left: 30px;    
+        }
+        
+#nameborder{
+          box-shadow: 0px .3px 0px black;
+          margin-left: 20px;    
+        }
+#chat{
+          margin-top: 45px;
+          margin-left: 1060px;
+          max-height: 579px;
+          height: 579px;
+          z-index: 100;
+          position: absolute; 
+          background-color: lightgrey;
+}

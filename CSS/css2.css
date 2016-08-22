@@ -1,0 +1,65 @@
+
+/*
+This file is for designing contacus.html page 
+*/
+ 
+/* Body properties */
+
+body{
+    margin-top: 20px;
+    background-image: url("../images/page_background.jpg");
+    background-repeat: repeat-x;
+    max-width: 1330px;   
+}
+
+/* Top Division starts here */ 
+
+/* Arragning the logo */
+#logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 130px;
+}
+
+/* Arranging the credit tetx */
+#credit{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 620px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 50px;
+}
+
+/* Top division ends here */
+
+
+/* Division of photo and information */
+
+/* Setting the image */
+#ravindra{
+    margin-top: 50px;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin-left: 950px;
+    
+}
+/* Setting the information*/
+#info{
+    margin-top: 140px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 150px;
+    color: darkred;
+}
+/* Setting the quote */
+#quote{
+    margin-top: 390px;
+    color: yellow;
+    font-size: 35px;
+    margin-left: 450px;
+}
+
+/* Designing of cotactus.html page ends here */
